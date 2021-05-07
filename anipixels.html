@@ -1,1 +1,46 @@
 
+<!DOCTYPE HTML>
+<html>
+ <head>
+     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+ 
+     <title>AniPixels</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="style.css"/>
+ </head>
+ <body>
+         
+	<div class="topContainer">
+	  <p onclick="openNav()"><i class="fas fa-bars"></i></p>
+	  <h1>AnimePixels</h1>
+	  <input type="search" name="search" id="search" placeholder="Search..." onkeyup="searchAnime()" />
+	  <p id="s"><i class="fas fa-search"></i></p>
+	</div>
+  	<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Follow Us</a>
+    <a href="#">Settings</a>
+  </div>
+	<div class="searchResult" id="searchDiv">
+	  <ol id="resultFound"></ol>
+	</div>
+	<div class="container2">
+	    <p title="Press the selection box to select type">Latest & Recent Updates</p>
+	</div>
+     <div class="container3">
+         <div id="seriesList">
+             <ol id="myList"></ol>
+         </div>
+         <div id="moviesList">
+             <ol id="myList2"></ol>
+         </div>
+     </div>
+     <footer>©Alright Reserve 2021</footer>
+     <script src="js.js"></script>
+     <script src="seriesList.js"></script>
+     <script src="searchEngine.js"></script>
+ </body>
+ 
+</html>
